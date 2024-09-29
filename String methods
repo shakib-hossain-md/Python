@@ -1,0 +1,58 @@
+text = "computer Science and Engineering"
+
+#convert the first character to upper case
+
+print("\nConverted String:")
+print(text.capitalize())
+
+#converts string into lower case
+
+print("\nConverted String:")
+print(text.casefold())
+
+#Reterned a centered string
+
+print("\nConverted String:")
+print(text.center(10))
+
+#Returns a number of times a specified value occurs in a string
+
+print("\nConverted String:")
+print(text.count("E"))
+
+#Return an encoded version of the string
+
+print("\nConverted String:")
+print(text.encode())
+
+#Returns true if the string end with the specified value
+
+print("\nConverted String:")
+print(text.endswith("g"))
+
+#Sets the tab size of the string
+
+print("\nConverted String:")
+print(text.expandtabs())
+
+#Searches the string for a specified value and returns the position of where it was found
+
+print("\nConverted String:")
+print(text.find("s"))
+
+#Format specified values in string
+
+print("\nConverted String:")
+print(text.format("Science"))
+
+
+print("\nConverted String:")
+print(text.format_map("Science"))
+
+#same as find
+
+print("\nConverted String:")
+print(text.index("g"))
+
+
+

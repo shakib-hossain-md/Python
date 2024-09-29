@@ -1,0 +1,19 @@
+def escape_characters_in_string():
+    # Example string with various escape characters
+    example_string = "This is a string with several escape characters:\n" \
+                     "1. Backslash: \\\n" \
+                     "2. Single Quote: \'\n" \
+                     "3. Double Quote: \"\n" \
+                     "4. New Line: This is on a new line.\n" \
+                     "5. Tab: \tThis is tabbed.\n" \
+                     "6. Backspace: This erases a character\b.\n" \
+                     "7. Carriage Return: This text will be replaced.\rReplaced!\n" \
+                     "8. Form Feed: \fThis text is after a form feed.\n" \
+                     "9. Vertical Tab: This text is before a vertical tab.\vAnd this is after.\n" \
+                     "10. ASCII Character (Octal): \101 (This prints 'A')\n" \
+                     "11. ASCII Character (Hex): \x41 (This also prints 'A')"
+
+    print(example_string)
+
+# Call the function to see the output
+escape_characters_in_string()
