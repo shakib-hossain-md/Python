@@ -22,6 +22,5 @@ graph = {
     3: [0],
     4: [2]
 }
-
 visited_nodes = dfs(graph, 0)
 print("Visited nodes:",visited_nodes)
